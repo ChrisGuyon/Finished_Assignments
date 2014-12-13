@@ -1,0 +1,194 @@
+/***************************************
+Typography
+****************************************/
+
+h1 {
+	color: #F4F4F4 !important;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 6.5em !important;
+
+}
+
+h2 {
+	color: #F4F4F4;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 3em !important;
+}
+
+h3 {
+	text-align: center;
+	color: #272F32;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 3.5em !important;
+}
+
+p {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	color: #545454;
+	font-size: 1.4em !important;
+	text-align: justify;
+}
+
+.explain {
+	color: #F7F7F7;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 1.7em !important;
+}
+
+.explaindiv {
+	margin-top: 25px;
+}
+
+.box_text {
+	text-align: center;
+	color: #F4F4F4;
+	margin-top: 25px;
+	font-size: 1.3em !important;
+}
+
+a:hover {
+	text-decoration: none !important;
+}
+
+.hthree{
+	padding-bottom: 25px;
+}
+
+/***************************************
+Main
+****************************************/
+.box {
+	margin-top: 75px;
+	opacity: .7;
+	transition-duration:.5s;
+}
+
+/*.box img {
+	width: 100%;
+	height: auto;
+}*/
+
+.box:hover {
+	transition-duration:.5s;
+	transform: translate(0px, -5px);
+	opacity: 1;
+}
+
+.nav-logo img {
+	width: 13%;
+	height: auto;
+}
+
+
+/***************************************
+Navbar
+****************************************/
+.navbar {
+	background-color: rgba(255,255,255,.9);
+	height: 70px;
+	padding-top: 13px;
+	box-shadow: 3px 3px 10px rgba(0,0,0,.2);
+}
+
+a {
+	color: #3D3D3D;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.3em;
+	transition-duration:.5s;
+}
+
+a:hover {
+	color: #AFAFAF;
+	transition-duration:.3s;
+}
+
+a:active {
+	color: #212121;
+}
+
+
+/***************************************
+Jumbotron
+****************************************/
+
+.jumbotron {
+	background-color: #3D3D3D;
+	padding: 150px 0 150px 0;
+	background-image: url('../img/bg.png');
+}
+
+
+/***************************************
+Examples
+****************************************/
+.negatives {
+	margin-top: 50px;
+}
+
+.two {
+	background: #ffffff; /* Old browsers */
+	padding: 50px 0px 150px 0px;
+}
+
+.three {
+	background-color: #2a2a2a;
+	padding: 100px 0px 200px 0px;
+}
+
+.examples {
+	color: #F4F4F4;
+	/*margin-bottom: 50px;*/
+}
+
+
+
+/***************************************
+Slider
+****************************************/
+
+
+/***************************************
+Footer
+****************************************/
+footer {
+	height: 60px;
+	background-color: #F4F4F4;
+}
+
+footer p {
+	text-align: center;
+	padding-top: 17px;
+}
+
+/***************************************
+Glyphicon
+
+****************************************/
+
+
+.glyphicon {
+	font-size: 5em;
+	display: block;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.glyphicon-plus {
+	color: #1AA8CC;
+}
+
+.glyphicon-minus {
+	color: #D45B86;
+}
+
+
+
+.img-thumbnail {
+	border-color: #000 !important;
+}
+

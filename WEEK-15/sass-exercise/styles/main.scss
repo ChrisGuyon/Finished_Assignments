@@ -1,0 +1,13 @@
+@import "compass";
+@import "compass/reset";
+
+@import "vars";
+@import "nav";
+@import "header";
+@import "footer";
+@import "button";
+@import "mixins";
+
+p {
+	color: myColorVar;
+}

@@ -1,0 +1,23 @@
+.primary-header {
+	width: $max-width;
+	padding: $default-padding;
+	margin: 0 auto;
+
+
+
+	ul {
+
+	}
+	li {
+		display: inline-block;
+		width: $max-width / $items;
+	}
+	a {
+		font-size: 30px;
+		color: white;
+		text-decoration: none;
+
+		&:hover{color:complement($myColorVar);}
+
+	}
+}
